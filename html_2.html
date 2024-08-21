@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <form>
+        <!-- 텍스트 입력 -->
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <!-- 체크박스 -->
+        <label for="field">관심분야:
+            <input type="checkbox" id="field" name="front"> 프론트
+            <input type="checkbox" id="field" name="back"> 백
+        </label>
+        
+        
+
+        <br><br>
+
+        <!-- 라디오 버튼 -->
+        <p>성별:</p>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male">
+            남성
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female">
+            여성
+        </label>
+        <br><br>
+
+        <button type="submit">제출</button>
+    </form>
+
+</body>
+
+</html>
